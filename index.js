@@ -10,22 +10,3 @@ http
     response.end();
   })
   .listen(3000);
-
-/*
-const express = require("express");
-
-const app = express();
-const port = 3000;
-
-app.get("/", (req, res) => {
-  res.send("express start");
-});
-app.get("/fast", (req, res) => {
-  res.send("fast start!!!");
-});
-
-app.listen(port, () => {
-  console.log("Express listening on port", port);
-});
-
-*/
